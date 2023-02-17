@@ -1,0 +1,72 @@
+.bg-image{
+    color:black;
+}
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.progress-name {
+    font-weight: bold;
+    color: black;
+}
+
+.progress-container {
+    height: 20px;
+    border-radius: 5px;
+    background-color: cadetblue;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--progress);
+}
+
+.progress-value {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+section {
+    height: 500px;
+    margin-top: 50px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #666;
+}
